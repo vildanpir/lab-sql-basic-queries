@@ -27,7 +27,7 @@ SELECT COUNT(DISTINCT last_name) FROM actor;
 SELECT title, length FROM film ORDER BY length DESC LIMIT 10;
 
 
-SELECT * FROM actor WHERE first_name='SCARLETT'
+SELECT * FROM actor WHERE first_name = 'SCARLETT';
 
 /*
 Challenge
